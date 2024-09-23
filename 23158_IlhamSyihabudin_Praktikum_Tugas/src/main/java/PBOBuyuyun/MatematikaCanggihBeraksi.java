@@ -20,7 +20,7 @@ public class MatematikaCanggihBeraksi {
     int b = 3;
 
     System.out.println(a + " + " + b + " = " + mc.tambah(a, b));
-    System.out.println(a + " * " + b + " = " + mc.kali(a, b));
+    System.out.println(a + " * " + b + " = " + mc.kali(a, b)); 
     System.out.println(a + " - " + b + " = " + mc.kurang(a, b));
     System.out.println(a + " / " + b + " = " + mc.bagi(a, b));
     System.out.println(a + " % " + b + " = " + mc.modulus(a, b));
