@@ -1,0 +1,63 @@
+/* Warna header */
+.header-custom {
+  background-color: #C3B091; /* biru tua */
+  color: white;
+}
+
+/* Sidebar kuning */
+.sidebar-custom {
+  background-color: #FFFBDE; /* kuning Bootstrap */
+}
+
+/* Surat Lamaran (konten kiri) */
+.content-surat {
+  width: 50%;
+}
+
+
+/* Biodata (konten kanan) */
+.biodata-custom {
+  background-color: #FFFBDE; /* kuning lebih terang */
+  color: #212529;
+  width: 40%;
+}
+
+/* Footer */
+.footer-custom {
+  background-color: #C3B091; /* sama seperti header */
+}
+
+/* Kartu portofolio */
+.card-img-top {
+  height: 200px;
+  object-fit: cover; /* agar gambar rapi */
+  border-bottom: 1px solid #ccc;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Untuk spacing antar gambar portofolio */
+.row.g-4 > div {
+  display: flex;
+}
+
+/* Memberi jarak antar konten utama dan atas */
+main {
+  padding-top: 20px;
+}
+
+/* Responsive tweak jika layar kecil */
+@media (max-width: 768px) {
+  .content-surat,
+  .biodata-custom {
+    width: 100%;
+  }
+
+  .card-img-top {
+    height: auto;
+  }
+}
+
